@@ -56,7 +56,7 @@ function Timer(props) {
 
   return (
     <div>
-      D-{day} {hours < 10 ? `0${hours}` : hours}:{minutes < 10 ? `0${minutes}` : minutes}:{seconds < 10 ? `0${seconds}` : seconds}
+      D-{day} {hours < 10 ? `0${hours}` : hours}:{minutes < 10 ? `0${minutes}` : minutes}:{seconds < 10 ? `0${seconds}` : seconds} 남음
     </div>
   )
 }

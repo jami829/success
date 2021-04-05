@@ -25,7 +25,8 @@ function ItemList() {
 
       {itemInfo.map((item, idx) => <Item
         key={idx}
-        item={item}
+
+        // item={item}
         imagePath={item.imagePath}
         productName={item.productName}
         currentPrice={item.currentPrice} // 경매 현재가로 각 카드에 가격 표시

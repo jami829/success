@@ -43,6 +43,7 @@ function Timer(props) {
 
   }
 
+
   useEffect(() => {
     const interval = setInterval(() => {
       countDay();

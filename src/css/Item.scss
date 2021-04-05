@@ -1,11 +1,29 @@
 .item {
   .card-container {
-    width: 100px;
+    width: 200px;
 
     .img {
+      position: relative;
+
       img {
         width: 100%;
         object-fit: cover;
+      }
+
+      .count {
+        position: absolute;
+        top: 82.5%;
+        left: 70%;
+
+        background: #f8f6f5;
+        border: 2px solid #e78159;
+        color: #e78159;
+        width: 30%;
+        // height: 13.2%;
+        padding: 4px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
   }

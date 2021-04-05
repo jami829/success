@@ -31,6 +31,7 @@ function ItemList() {
         productName={item.productName}
         currentPrice={item.currentPrice} // 경매 현재가로 각 카드에 가격 표시
         count={item.count} // 찜한 사람 수, 좋아요 표시로 출력
+        closingTime={item.closingTime}
       />)}
 
     </div>

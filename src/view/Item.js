@@ -10,6 +10,7 @@ function Item(props) {
       <div className='card-container'>
         <div className="img">
           <img src={props.imagePath} alt='상품 이미지입니다.' />
+          <div className='d-day'>{props.closingTime}</div>
           <div className='count'> ♥︎{props.count} </div>
         </div>
 

@@ -10,6 +10,17 @@
         object-fit: cover;
       }
 
+      .d-day {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+
+        padding: 8px 5px;
+        border-radius: 5px;
+        background: gray;
+        color: rgba(255, 255, 255, 0.644);
+      }
+
       .count {
         position: absolute;
         top: 82.5%;

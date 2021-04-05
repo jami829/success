@@ -22,7 +22,7 @@ function ItemList() {
 
   return (
     <div>
-      asdf
+
       {itemInfo.map((item, idx) => <Item
         key={idx}
         item={item}

@@ -4,6 +4,9 @@ import axios from 'axios';
 // components
 import Item from '../view/Item';
 
+// css
+import '../css/Item.scss'
+
 function ItemList() {
   const [itemInfo, setItemInfo] = useState([]);
 
@@ -21,7 +24,7 @@ function ItemList() {
   console.log("itemInfo", itemInfo);
 
   return (
-    <div>
+    <div className='item-list'>
 
       {itemInfo.map((item, idx) => <Item
         key={idx}

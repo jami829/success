@@ -1,4 +1,4 @@
-import './App.css';
+import './css/App.css';
 
 // components
 import Main from './view/Main';

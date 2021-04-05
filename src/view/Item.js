@@ -1,5 +1,8 @@
 import React from 'react';
 
+// css
+import '../css/Item.scss';
+
 function Item(props) {
   console.log('props', props)
   return (

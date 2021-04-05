@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 // components
-import Item from './Item';
+import Item from '../view/Item';
 
 function ItemList() {
   const [itemInfo, setItemInbfo] = useState([]);

@@ -1,7 +1,7 @@
 import React from 'react';
 
 // components
-import ItemList from './ItemList';
+import ItemList from '../components/ItemList';
 
 
 function Main() {
